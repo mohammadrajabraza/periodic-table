@@ -1,0 +1,149 @@
+table {
+    /* border: 1px solid black; */
+    color: white;
+ 
+}
+
+/* p,sub,sup {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+} */
+
+
+td {
+    width: 50px;
+    height: 55px;
+    background-color: #564993;
+    position: relative;
+}
+
+td::before,
+td::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+td::after {
+    border-width: 15px;
+    border-right-color:white;
+    border-bottom-color:white;
+}
+td.spancol {
+   background-color: transparent; 
+}
+
+tr p {
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.mysub {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    vertical-align: text-bottom;
+}
+
+p.mysup {
+    font-size: 10px;
+    padding: 0px;
+    margin-top: 0px;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.green {
+    background-color: #459B5B;
+}
+
+.royal{
+    background-color: #0265B2;
+}
+
+.red {
+    background-color: #EF443D;
+}
+.pink {
+    background-color: #F05F98;
+}
+
+.mango {
+    background-color: #fecd44;
+}
+
+.parrot {
+    background-color: #A5CE42;
+}
+
+.torquoise {
+    background-color: #27BED0;
+}
+
+.lightgreen {
+    background-color: #C3DFA4;
+}
+
+.lightpink {
+    background-color: #FEDBB5;
+}
+
+.lightpurple {
+    background-color: lightslategrey;
+}
+
+
+
+/* #box {
+    width:6em;
+    height: 6em;
+    border: 4px solid #ccc;
+    background-color:blue;
+    position: relative;
+}
+
+#box::before,
+#box::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+#box::before {
+    border-width: 1.5em;
+    border-right-color: #ccc;
+    border-bottom-color: #ccc;
+}
+
+#box::after {
+    border-radius: 0.4em;
+    border-width: 1.35em;
+    border-right-color:white;
+    border-bottom-color:white;
+}
+
+
+div {
+    height: 200px;
+    width: 200px;
+    background: red;
+    position: relative;
+}
+
+div:before {
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    border-bottom: 80px solid white;
+    border-left: 80px solid red;
+    width: 0;
+} */
