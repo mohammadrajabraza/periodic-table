@@ -1,18 +1,12 @@
 table {
-    /* border: 1px solid black; */
     color: white;
+    width: 100%;
  
 }
 
-/* p,sub,sup {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-} */
-
-
 td {
-    width: 50px;
-    height: 55px;
+    width: 5.5%;
+    height: 65px;
     background-color: #564993;
     position: relative;
 }
@@ -36,28 +30,35 @@ td.spancol {
    background-color: transparent; 
 }
 
-tr p {
+td>p {
     text-align: center;
     vertical-align: middle;
     margin: 0px;
     padding: 0px;
+    font-weight: bold;;
 }
 
-p.mysub {
+sup{
+    font-size: 11px;
+}
+
+
+
+/* p.mysub {
     font-size: 10px;
     margin: 0px;
     padding: 0px;
     text-align: left;
     vertical-align: text-bottom;
-}
+} */
 
-p.mysup {
+/* p.mysup {
     font-size: 10px;
     padding: 0px;
     margin-top: 0px;
     text-align: left;
     vertical-align: text-top;
-}
+} */
 
 .green {
     background-color: #459B5B;
